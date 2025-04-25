@@ -9,12 +9,13 @@ const page = () => {
       {/* <h1>Hi. My name is <span style={{ color: 'rgba(13, 152, 162, 0.5)' }}>Michael McCrae</span></h1> */}
       {/* <h1>Hi. My name is <Link href="/">Michael McCrae</Link></h1> */}
       {/* <div className="font-bold text-4xl">Hi. My name is <Link href="/">Michael McCrae</Link>.</div> */}
-      <div className="font-bold text-4xl text-gray-400 uppercase mb-4">Leading Digital transformations</div>
+      {/* <div className="font-bold text-4xl uppercase mb-4">Leading Digital transformations</div> */}
+      <h1>Leading digital transformations</h1>
       <div className="h-4"></div>
       {/* </div> */}
       {/* <h2>My name is Michael McCrae.</h2> */}
       <p>Hi. I'm <Link href="/">Michael McCrae</Link>. I'm a media leader with 20+ years of experience uncovering emerging trends, coordinating teams and driving revenue growth.</p>
-      <p>I am able to recognize digital shifts and capitalize. I was co-founder and publisher of MINING.com, one of the first digital-native publications in its niche, which eventually became a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies Exxon and Caterpillar.</p>
+      <p>I am able to recognize digital shifts and seize opportunities. I was co-founder and publisher of MINING.com, one of the first digital-native publications in its niche. Inthe 2010s, MINING.com grew to become a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies ExxonMobil and Caterpillar.</p>
       
       <figure>
         <Image
@@ -28,14 +29,14 @@ const page = () => {
       <figcaption className="caption">I'm on the left. Photo is from Women In Mining, which was profiling business leaders in the resource sector.</figcaption>
       </figure>
 
-      <p>I know how to <Link href="/data">get intelligence out of complex data</Link>. I am most comfortable working with R and JavaScript. Currently, I am using the framework NextJS to develop a web apps.</p>
+      <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. I mostly work with R and JavaScript. Currently, I am developing web apps using the framework NextJS.</p>
       
-      <p>In any business communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have <Link href="/anchoring"> interviewed many leading CEOs</Link>.</p>
+      <p>In any business, communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have <Link href="/anchoring"> interviewed many leading CEOs</Link>.</p>
 
       <p>I have an MBA and CMA, a certified management accountant designation. My undergraduate degree was in creative writing.</p>
   
       <p>For hobbies, I like the outdoors. I am bad at wingfoiling. I keep an eye on upcoming trips organized by the British Columbia Mountaineering Club. At home my son and I are work on our bread-making skills.</p>
-      <p>Find me on <Link href="/dashboard">X</Link> or <Link href="/dashboard">LinkedIn</Link>. You can also <Link href="/dashboard">contact me</Link>.</p>
+      
       
       
     </div>

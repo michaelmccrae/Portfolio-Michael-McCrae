@@ -5,7 +5,7 @@
 
 /* Root Variables */
 :root {
-  --foreground-rgb: 18, 19, 20; /* #121314 */
+  --foreground-rgb: 51, 51, 51; /* #333333 - Changed from #121314 for better readability */
   --accent-color-rgb: 79, 192, 141; /* #4FC08D */
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -57,7 +57,7 @@ body {
   font-size: calc(10px + 0.33vw);
   -webkit-font-smoothing: antialiased;
   padding: 5vh 10vw;
-  color: #121314;
+  color: #333333; /* Changed from #121314 to dark gray for reduced eye strain */
   line-height: 1.5;
 }
 
@@ -65,7 +65,7 @@ body {
 h1 {
   font-size: 4.5em;
   font-weight: 700;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   line-height: 1.1;
 }
 
@@ -73,8 +73,8 @@ h2 {
   font-size: 2.2em;
   font-weight: 700;
   letter-spacing: -1.5px;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
   line-height: 1.1;
   font-family: var(--font-nokora); /* Apply Nokora to all <p> elements */
 }
@@ -99,7 +99,7 @@ p {
 a {
   text-decoration: none;
   white-space: nowrap;
-  color: #121314;
+  color: #333333; /* Changed from #121314 to match body text color */
   position: relative;
   line-height: inherit;
 }
@@ -229,26 +229,28 @@ h2 + p {
   padding-bottom: 1.5em;
 }
 
-/* style footer links */
+/* Style the <a> elements within the footer */
+.footer-links {
+  display: flex; /* Apply flex container to the parent */
+  justify-content: center; /* Center the links horizontally */
+  gap: 14px; /* Add 4px spacing between flex items */
+}
 
 .footer-links a {
-  text-decoration: none; /* Example: Add underline */
-  color: gray; /* Example: Change the color */
+  text-decoration: none;
+  color: gray;
+  position: static; /* Override the global relative positioning */
+  line-height: inherit;
+  font-size: 1.3em; /* Match the paragraph font size */
+  font-weight: 300; /* Match the paragraph font weight */
 }
 
+/* Override the global :after pseudo-element */
 .footer-links a:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: 66%;
-  left: -0.1em;
-  right: -0.1em;
-  bottom: 0;
-  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-  background-color: rgba(13, 152, 162, 0.5);
+  content: none; /* Remove the after pseudo-element completely */
 }
 
+/* No need for hover effect since we removed the :after element */
 .footer-links a:hover:after {
-  top: 0%;
-  background-color: lightgreen; /* Example: Change hover color */
+  /* This rule can stay empty or be removed completely */
 }

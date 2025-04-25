@@ -29,15 +29,10 @@ const page = () => {
               </Breadcrumb>
               </div> 
 
-              <p>
-I have strong data analysis and modelling skills, and I'm proficient in R and JavaScript.
+              
+<p>I have strong data analysis skills. At MINING.com, our sister division Mining Intelligence tracked data from the miners. I modelled the data using the tidyverse and RStudio to explore and create data-driven stories. See my Github for recent projects.</p>
 
-I began working with R to model mining data, finding the Tidyverse particularly effective for conceptualizing data modelling. Tools in RStudio allowed me to easily explore datasets and develop visualizations to better understand the data.
-
-I later transitioned to JavaScript to develop interactive models, utilizing libraries such as D3 and React.
-
-I also use Python, primarily for prototyping within Google Colab or Jupyter notebooks when experimenting with AI models.
-</p>
+<p> I have switched to JavaScript and the framework NextJS to make web apps.</p>
 
 <figure className="">
 <Image
@@ -46,10 +41,9 @@ width={0}
 height={0}
 sizes="100vw"
 className="w-full h-auto"
-alt="Picture of the author"/>
-<figcaption className="caption"></figcaption>
+alt="A ridgeline plot by Michael McCrae showing pay range by job title at Canadian mines"/>
+<figcaption className="caption">A ridgeline plot developed by Michael McCrae for Mining Intelligence, showing <Link href="https://www.linkedin.com/pulse/top-paid-positions-canadian-mines-michael-allan-mccrae-mba-cma/?trackingId=gQex2CCdQUuo7u3Xmwiw8A%3D%3D">pay range by job title at Canadian mines</Link>. Data was compiled in 2017.</figcaption>
 </figure>
-
 
 <figure className="">
 <Image
@@ -58,10 +52,9 @@ width={0}
 height={0}
 sizes="100vw"
 className="w-full h-auto"
-alt="Picture of the author" />
-<figcaption className="caption"></figcaption>
-</figure>
-    
+alt="A sankey diagram by Michael McCrae showing resource financings in October 2017" />
+<figcaption className="caption">A sankey diagram showing a breakdown of <Link href="https://www.linkedin.com/pulse/lithium-companies-raise-us42-million-october-mccrae-mba-cma/?trackingId=gQex2CCdQUuo7u3Xmwiw8A%3D%3D">financings by resource companies in October 2017</Link>.</figcaption>
+</figure>    
     </div>
     </>
   )
