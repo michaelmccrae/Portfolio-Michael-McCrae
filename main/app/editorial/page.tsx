@@ -40,8 +40,6 @@ const page = () => {
 <h2>Anchoring</h2>
 <p>As an anchor, I've conducted over 100 face-to-face CEO interviews. Highlights include Barrick Gold's <Link href="https://youtu.be/obpqsDveJdY?si=itJGWQtR24RWieem">Mark Bristow</Link>, Newmont's <Link href="https://youtu.be/mbFUyG32jSQ?si=3ga_uIQFq9rtzOC7">Tom Palmer</Link>, Lundin Mining's <Link href="https://youtu.be/8pr-Ds5mK90?si=yQcfbcNcUfXkkcAC">Adam Lundin</Link>, and <Link href="https://youtu.be/l3vL8tCdgIs?si=q9mMlFknrmePlub7">Jigar Shah</Link>, director of the Loan Programs Office in the US Department of Energy.</p> <p>I've also hosted award shows and news panels. I am an in-demand speaker and moderator.</p>
 
-    
-
 <Randy />
 
 <p><Link href="https://youtu.be/sNm9V_csm_I?si=-o2bZJxWAjz2Sg1Y">Former World Gold Council chair can't give up silver</Link> - Wheaton's Randy Smallwood on precious metals</p>
