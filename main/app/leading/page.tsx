@@ -4,11 +4,9 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-  BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import Image from 'next/image'
-import Link from 'next/link'
 
 
 const page = () => {
