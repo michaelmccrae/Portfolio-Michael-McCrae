@@ -9,12 +9,14 @@ import {
   } from "@/components/ui/breadcrumb";
   import Image from 'next/image';
   import Link from 'next/link';
+  import Randy from './randyyoutube.jsx'
+  import Keith from './keithyoutube.jsx'
 
 const page = () => {
   return (
      <>
-        <div className="flex flex-col gap-4">
-        <div className="mb-8">
+        <div className="">
+       
     
               <Breadcrumb>
             <BreadcrumbList>
@@ -29,16 +31,29 @@ const page = () => {
             </BreadcrumbList>
           </Breadcrumb>
           </div>  
+          <div className="h-4"></div>
                 
           <div className="">
 
-<p>I led editorial teams at both MINING.com and Kitco Mining. </p>
+<p>I am a media leader versed in all aspects of leading news organizations, from reporting to editing, from anchoring to oganizing conferences. </p>
 </div>
+<h2>Anchoring</h2>
+<p>As an anchor, I've conducted over 100 face-to-face CEO interviews. Highlights include Barrick Gold's <Link href="https://youtu.be/obpqsDveJdY?si=itJGWQtR24RWieem">Mark Bristow</Link>, Newmont's <Link href="https://youtu.be/mbFUyG32jSQ?si=3ga_uIQFq9rtzOC7">Tom Palmer</Link>, Lundin Mining's <Link href="https://youtu.be/8pr-Ds5mK90?si=yQcfbcNcUfXkkcAC">Adam Lundin</Link>, and <Link href="https://youtu.be/l3vL8tCdgIs?si=q9mMlFknrmePlub7">Jigar Shah</Link>, director of the Loan Programs Office in the US Department of Energy.</p> <p>I've also hosted award shows and news panels. I am an in-demand speaker and moderator.</p>
+
+    
+
+<Randy />
+
+<p><Link href="https://youtu.be/sNm9V_csm_I?si=-o2bZJxWAjz2Sg1Y">Former World Gold Council chair can't give up silver</Link> - Wheaton's Randy Smallwood on precious metals</p>
+
+<Keith />
+
+<p><Link href="https://youtu.be/QdnmQ2CsYzo?si=scyG-vGqTOiGpWAU">'It was a very competitive process'</Link> - First Majestic's Keith Neumeyer on $970M Gatos acquisition</p>
 <h2>Recognition</h2>
     
-    <p>MINING.com was a Canadian Online Publishing Award (COPA) winner. A reporter from the team was also a <Link href="https://jackwebster.com/awardees-year-category/?_sort_by_year=2014&_sort_by_category=excellence-in-multimedia-journalism" target="_blank" rel="noopener noreferrer">Jack Webster Foundation finalist</Link>. </p>
+<p>MINING.com was a Canadian Online Publishing Award (COPA) winner in both the gold and silver categories. A reporter from the team was also a <Link href="https://jackwebster.com/awardees-year-category/?_sort_by_year=2014&_sort_by_category=excellence-in-multimedia-journalism" target="_blank" rel="noopener noreferrer">Jack Webster Foundation finalist</Link>. </p>
 
-<p>At my most recent position, Kitco Mining was a COPA finalist. </p>
+<p>At my most recent position at Kitco Mining, the business was also a COPA finalist. </p>
 
 <figure className="">
                   <Image
@@ -47,12 +62,14 @@ const page = () => {
                   height={0}
                   sizes="100vw"
                   className="w-full h-auto"
-                  alt="Picture of the author"
+                  alt="Canadian Online Publishing Awards and Jack Webster Foundation recognition for MINING.com and Kitco Mining."
                 />
                 <figcaption className="caption"></figcaption>
                 </figure>
 
 <h2>Articles</h2>
+
+<p>Here's a selection of recent articles published by me.</p>
 
 <div>
   <p>
@@ -81,7 +98,7 @@ const page = () => {
     </Link>
   </p>
 </div>
-</div>
+
 </>
         
 

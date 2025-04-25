@@ -53,7 +53,7 @@ height={0}
 sizes="100vw"
 className="w-full h-auto"
 alt="A sankey diagram by Michael McCrae showing resource financings in October 2017" />
-<figcaption className="caption">A sankey diagram showing a breakdown of <Link href="https://www.linkedin.com/pulse/lithium-companies-raise-us42-million-october-mccrae-mba-cma/?trackingId=gQex2CCdQUuo7u3Xmwiw8A%3D%3D">financings by resource companies in October 2017</Link>.</figcaption>
+<figcaption className="caption">A sankey diagram developed by Michael McCrae for Mining Intelligence showing a breakdown of <Link href="https://www.linkedin.com/pulse/lithium-companies-raise-us42-million-october-mccrae-mba-cma/?trackingId=gQex2CCdQUuo7u3Xmwiw8A%3D%3D">financings by resource companies in October 2017</Link>.</figcaption>
 </figure>    
     </div>
     </>

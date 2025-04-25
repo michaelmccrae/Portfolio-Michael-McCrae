@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
 const page = () => {
   return (
     <div className="">
@@ -15,7 +16,7 @@ const page = () => {
       {/* </div> */}
       {/* <h2>My name is Michael McCrae.</h2> */}
       <p>Hi. I'm <Link href="/">Michael McCrae</Link>. I'm a media leader with 20+ years of experience uncovering emerging trends, coordinating teams and driving revenue growth.</p>
-      <p>I am able to recognize digital shifts and seize opportunities. I was co-founder and publisher of MINING.com, one of the first digital-native publications in its niche. Inthe 2010s, MINING.com grew to become a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies ExxonMobil and Caterpillar.</p>
+      <p>I am able to recognize technological shifts and seize opportunities. I was co-founder and publisher of MINING.com, one of the first digital-native publications in its niche. In the 2010s, MINING.com grew to become a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies ExxonMobil and Caterpillar.</p>
       
       <figure>
         <Image
@@ -29,9 +30,9 @@ const page = () => {
       <figcaption className="caption">I'm on the left. Photo is from Women In Mining, which was profiling business leaders in the resource sector.</figcaption>
       </figure>
 
-      <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. I mostly work with R and JavaScript. Currently, I am developing web apps using the framework NextJS.</p>
+      <p>I know how to <Link href="/data">derive intelligence from complex data</Link> using R. Currently, I am developing web apps using <Link href="https://github.com/michaelmccrae">JavaScript and the framework NextJS</Link>.</p>
       
-      <p>In any business, communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have <Link href="/anchoring"> interviewed many leading CEOs</Link>.</p>
+      <p>In any business, communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have interviewed many leading CEOs.</p>
 
       <p>I have an MBA and CMA, a certified management accountant designation. My undergraduate degree was in creative writing.</p>
   
