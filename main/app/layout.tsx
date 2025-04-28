@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Nokora } from "next/font/google";
 import "./globals.css";
 import Testimonial from './components/testimonials'
-import Script from "next/script" // for reCaptcha
+// import Script from "next/script" // for reCaptcha
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
