@@ -1,5 +1,5 @@
 import React from 'react'
-import EmailPage from './emailcaptcha'
+// import EmailPage from './emailcaptcha'
 import JSEmail from './jsemail'
 import {
   Breadcrumb,
