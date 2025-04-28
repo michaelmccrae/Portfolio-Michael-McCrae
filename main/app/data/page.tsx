@@ -29,9 +29,7 @@ const page = () => {
               </div> 
 
               
-<p>I have strong data analysis skills. At MINING.com, our sister division Mining Intelligence tracked data from the miners. I modelled the data using the tidyverse and RStudio to explore and create data-driven stories. See my Github for recent projects.</p>
-
-<p> I have switched to JavaScript and the framework NextJS to make web apps.</p>
+<p>I have strong data analysis skills. At MINING.com, I modeled data from Mining Intelligence using the tidyverse and RStudio to explore and create data-driven stories. The MINING.com team was a finalist in the Jack Webster Awards</p>
 
 <figure className="">
 <Image

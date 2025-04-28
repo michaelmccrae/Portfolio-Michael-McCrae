@@ -11,6 +11,7 @@ import {
   import Randy from './randyyoutube.jsx'
   import Keith from './keithyoutube.jsx'
 
+
 const page = () => {
   return (
      <>
@@ -68,33 +69,25 @@ const page = () => {
 
 <p>Here&apos;s a selection of recent articles published by me.</p>
 
-<div>
-  <p>
-    <Link href="https://www.linkedin.com/pulse/top-paid-positions-canadian-mines-michael-allan-mccrae-mba-cma/?trackingId=JXQz4CdqRtmCQf99vP2aPQ%3D%3D" target="_blank" rel="noopener noreferrer">
-      Top paid positions at Canadian mines
-    </Link>
-  </p>
-  <p>
-    <Link href="https://www.linkedin.com/pulse/lithium-companies-raise-us42-million-october-mccrae-mba-cma/?trackingId=JXQz4CdqRtmCQf99vP2aPQ%3D%3D" target="_blank" rel="noopener noreferrer">
-      Lithium companies raise US$42 million in October
-    </Link>
-  </p>
-  <p>
-    <Link href="https://www.kitco.com/news/article/2024-07-31/kinrosss-earnings-jump-40-q2" target="_blank" rel="noopener noreferrer">
-      Kinross&apos;s earnings jump 40% in Q2
-    </Link>
-  </p>
-  <p>
-    <Link href="https://www.kitco.com/news/article/2024-07-31/days-easy-cheap-pounds-coming-out-central-asia-are-effectively-over-cameco" target="_blank" rel="noopener noreferrer">
-      &apos;The days of easy, cheap pounds coming out of Central Asia are effectively over&apos; - Cameco files Q2
-    </Link>
-  </p>
-  <p>
-    <Link href="https://www.kitco.com/news/article/2024-08-22/lucara-diamond-recovers-one-largest-rough-diamonds-ever-unearthed-stock" target="_blank" rel="noopener noreferrer">
-      Lucara Diamond recovers &apos;one of the largest rough diamonds ever unearthed&apos;, stock jumps
-    </Link>
-  </p>
+<div className="pl-4"><p>
+  <Link href="https://www.linkedin.com/pulse/top-paid-positions-canadian-mines-michael-allan-mccrae-mba-cma/?trackingId=JXQz4CdqRtmCQf99vP2aPQ%3D%3D" target="_blank" rel="noopener noreferrer">
+    Top paid positions at Canadian mines
+  </Link><br />
+  <Link href="https://www.linkedin.com/pulse/lithium-companies-raise-us42-million-october-mccrae-mba-cma/?trackingId=JXQz4CdqRtmCQf99vP2aPQ%3D%3D" target="_blank" rel="noopener noreferrer">
+    Lithium companies raise US$42 million in October
+  </Link><br />
+  <Link href="https://www.kitco.com/news/article/2024-07-31/kinrosss-earnings-jump-40-q2" target="_blank" rel="noopener noreferrer">
+    Kinross&apos;s earnings jump 40% in Q2
+  </Link><br />
+  <Link href="https://www.kitco.com/news/article/2024-07-31/days-easy-cheap-pounds-coming-out-central-asia-are-effectively-over-cameco" target="_blank" rel="noopener noreferrer">
+    &apos;The days of easy, cheap pounds coming out of Central Asia are effectively over&apos; - Cameco files Q2
+  </Link><br />
+  <Link href="https://www.kitco.com/news/article/2024-08-22/lucara-diamond-recovers-one-largest-rough-diamonds-ever-unearthed-stock" target="_blank" rel="noopener noreferrer">
+    Lucara Diamond recovers &apos;one of the largest rough diamonds ever unearthed&apos;, stock jumps
+  </Link></p>
 </div>
+
+
 
 </>
         

@@ -254,3 +254,177 @@ h2 + p {
 .footer-links a:hover:after {
   /* This rule can stay empty or be removed completely */
 }
+
+/* blockquote ideas from Claude */
+
+/* Option 1: Simple Left Border */
+blockquote {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--accent-color-rgb, rgb(79, 192, 141));
+  background-color: rgba(var(--accent-color-rgb, 79, 192, 141), 0.05);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: inherit;
+}
+
+blockquote p {
+  margin-bottom: 0.5em;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote cite {
+  display: block;
+  font-size: 0.9em;
+  margin-top: 0.7em;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--muted-foreground);
+}
+
+/* Option 2: Modern Quote Marks */
+.blockquote-modern {
+  padding: 2rem;
+  margin: 2rem 0;
+  position: relative;
+  background-color: var(--secondary);
+  border-radius: var(--radius);
+  font-size: 1.25em;
+  line-height: 1.6;
+}
+
+.blockquote-modern::before {
+  content: '"';
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  font-family: var(--font-nokora);
+  font-size: 5rem;
+  color: rgba(var(--accent-color-rgb, 79, 192, 141), 0.2);
+  line-height: 1;
+}
+
+.blockquote-modern p {
+  position: relative;
+  z-index: 1;
+}
+
+.blockquote-modern cite {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.9em;
+  color: var(--muted-foreground);
+}
+
+.blockquote-modern cite::before {
+  content: "— ";
+}
+
+/* Option 3: Full-width Accent */
+.blockquote-accent {
+  padding: 2rem 1.5rem;
+  margin: 2.5rem 0;
+  background: linear-gradient(to right, rgba(var(--accent-color-rgb, 79, 192, 141), 0.1), transparent);
+  border-radius: var(--radius);
+  font-family: var(--font-nokora);
+  font-size: 1.3em;
+  line-height: 1.5;
+  position: relative;
+  overflow: hidden;
+}
+
+.blockquote-accent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: rgb(var(--accent-color-rgb, 79, 192, 141));
+}
+
+.blockquote-accent p {
+  margin-bottom: 0.7em;
+}
+
+.blockquote-accent cite {
+  display: block;
+  font-size: 0.85em;
+  margin-top: 1em;
+  font-style: normal;
+  text-align: right;
+  color: var(--muted-foreground);
+}
+
+/* Dark mode adjustments for all blockquote styles */
+.dark blockquote,
+.dark .blockquote-modern,
+.dark .blockquote-accent {
+  color: var(--foreground);
+}
+
+.dark .blockquote-modern {
+  background-color: var(--secondary);
+}
+
+.dark .blockquote-accent {
+  background: linear-gradient(to right, rgba(var(--accent-color-rgb, 79, 192, 141), 0.15), transparent);
+}
+
+/* Blockquote with Left Bar Style */
+/* Blockquote with Gray Left Bar Style */
+.blockquote-leftbar {
+  padding: 1.2rem 1.8rem;
+  margin: 2rem 0;
+  position: relative;
+  background-color: var(--secondary, #f7f7f7);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 1.15em;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.blockquote-leftbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  background-color: #666666; /* Explicit medium gray color */
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.blockquote-leftbar p {
+  margin-bottom: 0.7em;
+}
+
+.blockquote-leftbar p:last-child {
+  margin-bottom: 0;
+}
+
+.blockquote-leftbar cite {
+  display: block;
+  font-size: 0.9em;
+  margin-top: 1em;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--muted-foreground);
+}
+
+/* Dark mode adjustment */
+.dark .blockquote-leftbar {
+  background-color: var(--secondary);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dark .blockquote-leftbar::before {
+  background-color: #a0a0a0; /* Lighter gray for dark mode */
+}
