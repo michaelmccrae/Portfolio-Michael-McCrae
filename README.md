@@ -16,6 +16,6 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 # Screenshots
 
-[Home]("https://raw.githubusercontent.com/michaelmccrae/Portfolio-Michael-McCrae/refs/heads/main/main/public/homepage.jpg")
+[Home](https://raw.githubusercontent.com/michaelmccrae/Portfolio-Michael-McCrae/refs/heads/main/main/public/homepage.jpg)
 
-[Contact]("https://raw.githubusercontent.com/michaelmccrae/Portfolio-Michael-McCrae/refs/heads/main/main/public/contact.jpg")
+[Contact](https://raw.githubusercontent.com/michaelmccrae/Portfolio-Michael-McCrae/refs/heads/main/main/public/contact.jpg)
