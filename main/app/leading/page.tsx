@@ -32,8 +32,8 @@ const page = () => {
       <figure className="">
               <Image
               src="/dg-laughing-narrow.jpg"
-              width={0}
-              height={0}
+              width={4080}
+              height={2164}
               sizes="100vw"
               className="w-full h-auto"
               alt="Michael McCrae at Deutsche Goldmesse with Paul Harris and Kai Hoffmann."

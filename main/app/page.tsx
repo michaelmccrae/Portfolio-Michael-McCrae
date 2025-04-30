@@ -18,8 +18,8 @@ const page = () => {
       <figure>
         <Image
         src="/michael-mccrae-big-spotlight-narrow.jpg"
-        width={0}
-        height={0}
+        width={3942}
+        height={2098}
         sizes="100vw"
         className="w-full h-auto"
         alt="Michael McCrae behind a spotlight"

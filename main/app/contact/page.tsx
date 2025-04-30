@@ -37,8 +37,8 @@ const page = () => {
     <figure className="">
     <Image
     src="/mirror_michael_mccrae.jpg"
-    width={0}
-    height={0}
+    width={2058}
+    height={1161}
     sizes="100vw"
     className="w-full h-auto"
     alt="Michael McCrae mirror"/>

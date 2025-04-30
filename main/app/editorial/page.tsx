@@ -56,8 +56,8 @@ const page = () => {
 <figure className="">
                   <Image
                   src="/awards-narrow.jpg"
-                  width={0}
-                  height={0}
+                  width={1540}
+                  height={576}
                   sizes="100vw"
                   className="w-full h-auto"
                   alt="Canadian Online Publishing Awards and Jack Webster Foundation recognition for MINING.com and Kitco Mining."

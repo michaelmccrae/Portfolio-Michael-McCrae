@@ -26,8 +26,9 @@ export default function RootLayout({
   return (
     
     <html lang="en" className={`${inter.variable} ${nokora.variable}`}>
-      <body className="min-h-screen flex flex-col justify-between w-full lg:max-w-screen-lg lg:mx-auto font-nokora">
-        <main className="flex flex-col items-start w-full lg:max-w-screen-lg lg:mx-auto">
+      <body className="min-h-screen flex flex-col justify-between w-full lg:max-w-screen-xl lg:mx-auto font-nokora">
+        {/* <main className="flex flex-col items-start w-full lg:max-w-screen-lg lg:mx-auto"> */}
+        <main className="">
           {children}
           {/* <Script
           src="https://www.google.com/recaptcha/enterprise.js?render=6LfOzCYrAAAAABlvAMpxV5dpdLkqrcVdzoqFxwOO"
