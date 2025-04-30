@@ -2,7 +2,7 @@
 
 This is a portfolio site for Michael McCrae. I used a minimal, clean design. 
 
-[Home](./public/homepage.jpg)
+[Home](./main/public/homepage.jpg)
 
 # Tech Used
 
@@ -12,7 +12,7 @@ This is a portfolio site for Michael McCrae. I used a minimal, clean design.
 - [TypeScript](https://www.typescriptlang.org/) - "TypeScript is a strongly typed programming language that builds on JavaScript."
 - [Google Fonts](https://fonts.google.com/) - Fonts are Inter and Norka.
 
-[Contact](./public/contact.jpg)
+[Contact](./main/public/contact.jpg)
 
 # License
 
