@@ -13,7 +13,7 @@ const page = () => {
 
 
       <p>Hi. I&apos;m Michael McCrae. I&apos;m a startup specialist with 20+ years of experience uncovering emerging trends, leading teams and driving revenue growth.</p>
-      <p>I was co-founder and publisher of MINING.com, one of the first digital-native publications in its niche. In the 2010s, MINING.com grew to become a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies ExxonMobil and Caterpillar.</p>
+      <p>I was co-founder and publisher of MINING.com, one of the first digital-native publications in the resource sector. In the 2010s, MINING.com grew to become a <Link href="/leading">globally-recognized brand.</Link> Clients included Fortune 500 companies ExxonMobil and Caterpillar.</p>
       
       <figure>
         <Image
@@ -27,7 +27,9 @@ const page = () => {
       <figcaption className="caption">Michael McCrae is on the left. Photo is from Women In Mining, which was profiling business leaders in the resource sector.</figcaption>
       </figure>
 
-      <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. Machine learning is transforming business. <Link href="https://github.com/michaelmccrae">Using JavaScript and the framework NextJS</Link>, I developed web apps using various AI models. </p>
+      <p>Machine learning is transforming business. Companies need business strategies for conversational AI, either to host their own models or to be discoverable on services like Perplexity and ChatGPT. I am experienced in chatbot development and integration, such as building <Link href="https://github.com/michaelmccrae/deparley">voice agents</Link>, as well as building general website, such as this <Link href="">portfolio site</Link>.</p>
+
+      <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. I am skilled at data analysis, modelling everything from financial filings to drill results, from site traffic numbers to revenue projections.</p>
       
       <p>In any business, communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have interviewed many leading CEOs.</p>
 
