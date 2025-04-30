@@ -27,7 +27,7 @@ const page = () => {
       <figcaption className="caption">Michael McCrae is on the left. Photo is from Women In Mining, which was profiling business leaders in the resource sector.</figcaption>
       </figure>
 
-      <p>Machine learning is transforming business. Companies need business strategies for conversational AI, either to host their own models or to be discoverable on services like Perplexity and ChatGPT. I am experienced in chatbot development and integration, such as building <Link href="https://github.com/michaelmccrae/deparley">voice agents</Link>, as well as building general website, such as this <Link href="https://github.com/michaelmccrae/Portfolio-Michael-McCrae">portfolio site</Link>.</p>
+      <p>Machine learning is transforming business. Companies need business strategies for conversational AI, either to host their own models or to be discoverable on services like Perplexity and ChatGPT. I am experienced at chatbot development and integration, such as building <Link href="https://github.com/michaelmccrae/deparley">voice agents</Link>. I mostly work with React and the framework NextJS, which I used to build this <Link href="https://github.com/michaelmccrae/Portfolio-Michael-McCrae">portfolio site</Link>.</p>
 
       <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. I am skilled at data analysis, modelling everything from financial filings to drill results, from site traffic numbers to revenue projections.</p>
       
