@@ -31,7 +31,7 @@ const page = () => {
 
       <p>I know how to <Link href="/data">derive intelligence from complex data</Link>. I am skilled at data analysis, modelling everything from financial filings to drill results, from site traffic numbers to revenue projections.</p>
       
-      <p>In any business, communication is key. I have led <Link href="/editorial">award-wining editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have interviewed <Link href="/editorial">many leading CEOs</Link>.</p>
+      <p>In any business, communication is key. I have led <Link href="/editorial">award-winning editorial teams</Link>, as well as written extensively on technology, resources and business. I am comfortable in front of the camera, and I have interviewed <Link href="/editorial">many leading CEOs</Link>.</p>
 
       <p>I have an MBA and CMA, a certified management accountant designation. My undergraduate degree was in creative writing.</p>
   
