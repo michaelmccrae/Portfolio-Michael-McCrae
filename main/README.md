@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# About
 
-## Getting Started
+This is a portfolio site for Michael McCrae. I used a minimal, clean design. 
 
-First, run the development server:
+(Home)[/homepage.jpg]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Tech Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- (Next.js)[https://nextjs.org] - A framework built upon React. NextJS version 15.3.1. 
+- (Tailwind CSS)[https://tailwindcss.com/] - I am using a mix of CSS style sheets and Tailwind to help me with quick fixes.
+- (shadcn)[https://ui.shadcn.com/] - shadcn was used for adding the breadcrumb functionality.
+- (TypeScript)[https://www.typescriptlang.org/] - "TypeScript is a strongly typed programming language that builds on JavaScript."
+- (Google Fonts)[https://fonts.google.com/] - Fonts are Inter and Norka.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+(Contact)[/contact.jpg]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of the license.
