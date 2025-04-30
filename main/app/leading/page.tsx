@@ -51,8 +51,7 @@ const page = () => {
           <h2>Solution</h2>
           <p>Following the same model as Business Insider and Huffington Post, MINING.com became a digital-native news site. While competitors were focused on maintaining their print business, MINING.com dominated the digital space as reading habits shifted. To fix the revenue problem, MINING.com turned its focus to large mining equipment and suppliers, companies that were looking to grow their digital presence now that print was waning. </p>
           <h2>Outcome</h2>
-          <p> MINING.com became the leading news site in the resource sector. The site had over 1.2 million pageviews and a massive email list of 500,000 subscribers. MINING.com signed up Fortune 500 companies like Exxon and Caterpillar. Deal size was in the six figures. Onboarding the large companies took much longer, but renewal rates were over 90%. </p> 
-        
+          <p> MINING.com became the leading news site in the resource sector. The site had over 1.2 million pageviews and a massive email list of 500,000 subscribers. MINING.com signed up Fortune 500 companies like Exxon and Caterpillar. Onboarding the large companies took longer, but the average deal size was in the six-figures and renewal rates were over 90%. </p>  
     
     
     </div>
