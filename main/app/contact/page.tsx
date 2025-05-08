@@ -36,7 +36,7 @@ const page = () => {
 
     <figure className="">
     <Image
-    src="/mirror_michael_mccrae.jpg"
+    src="/mirror_michael_mccrae_crop.jpg"
     width={2058}
     height={1161}
     sizes="100vw"
