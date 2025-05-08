@@ -29,7 +29,7 @@ const page = () => {
               </div> 
 
               
-<p>I have strong data analysis skills. At MINING.com, I modeled data from the business's sister division, Mining Intelligence. I used R to explore datasets and craft stories. In 2014, one of the MINING.com editors was a Jack Webster Awards finalist in the data journalism category.</p>
+<p>I have strong data analysis skills. At MINING.com, I modeled data from the business&apos;s sister division, Mining Intelligence. I used R to explore datasets and craft stories. In 2014, one of the MINING.com editors was a Jack Webster Awards finalist in the data journalism category.</p>
 
 <p>At Kitco Mining, I used JavaScript and D3 to make slope graphs, as well as <Link href="https://x.com/michaelmccrae/status/1105903869744209920">animated charts for social</Link>.</p>
 
@@ -66,8 +66,8 @@ width={0}
 height={0}
 sizes="100vw"
 className="w-full h-auto"
-alt="The world’s top 10 largest gold mining companies based on the miner's production figures reported for 2022 (calendar year)."/>
-<p>The world’s <Link href="https://observablehq.com/d/3a6ac5c138eb76ed">top 10 largest gold mining companies</Link> based on the miner's production figures reported for 2022 (calendar year). </p>
+alt="Top 10 largest gold mining companies based on the miner production figures reported for 2022 (calendar year)."/>
+<p>The world&apos;s <Link href="https://observablehq.com/d/3a6ac5c138eb76ed">top 10 largest gold mining companies</Link> based on the miner&apos;s production figures reported for 2022 (calendar year). </p>
 </figure>
 
 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
