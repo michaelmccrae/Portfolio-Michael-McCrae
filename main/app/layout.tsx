@@ -3,6 +3,7 @@ import { Inter, Nokora } from "next/font/google";
 import "./globals.css";
 import Testimonial from './components/testimonials'
 // import Script from "next/script" // for reCaptcha
+import { Analytics } from '@vercel/analytics/next';
 
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -37,6 +38,7 @@ export default function RootLayout({
         </main>
         <Testimonial />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
