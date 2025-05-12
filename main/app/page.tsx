@@ -35,7 +35,7 @@ const page = () => {
 
       <p>I have an MBA and CMA, a certified management accountant designation. My undergraduate degree was in creative writing.</p>
   
-      <p>For hobbies, I like the outdoors. I am bad at wingfoiling. I keep an eye on upcoming trips organized by the British Columbia Mountaineering Club. At home my son and I are work on our bread-making skills.</p>
+      <p>For hobbies, I like the outdoors. I am bad at wing foiling. I keep an eye on upcoming trips organized by the British Columbia Mountaineering Club. At home my son and I are work on our bread-making skills.</p>
       
       
       
